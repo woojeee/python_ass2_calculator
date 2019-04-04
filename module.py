@@ -1,14 +1,17 @@
-def add(a, b):
-    return a + b
+class Calculator:
+    def __init__(self, first, second):
+        self.a = first
+        self.b = second
 
+    def add(self):
+        return self.a + self.b
 
-def mul(a, b):
-    return a * b
+    def mul(self):
+        return self.a * self.b
 
+    def sub(self):
+        return self.a - self.b
 
-def sub(a, b):
-    return a - b
+    def div(self):
 
-
-def div(a, b):
-    return a / b
+        return self.a / self.b
